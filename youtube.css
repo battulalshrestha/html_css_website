@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+:root {
+    --primary-light: #74a84a;
+    --primary-dark: #2c541d;
+    --black: #000000;
+    --white: #efefef;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+ 
+}
+
+}
+body{
+    font-family: 'jost',sans-serif;
+}
+a{
+    text-decoration: none;
+    color:inherit;
+    padding: 10px 0;
+}
+header{
+    width: 100vw;
+    min-height: 60vh;
+    background-image:url("photo/imgphoto/img/main.png");
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 8px;
+
+
+}
+.logo{
+    color: #74a84a;
+    font:arial;
+    padding: 20px 0;
+  
+    
+   
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    text-decoration: none;
+   
+}
+nav div img{
+    color:red;
+}
+
+nav .logo{
+    font-size: 20px;
+    text-align: center;
+  
+}
+ nav .menu-btn img {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;     /* Centers vertically */
+ background-color:#74a84a;
+ height: fit-content;
+}
+.header-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+    padding: 40px 0;
+    color: #74a84a;
+}
+button{
+    color: white;
+    background-color: #74a84a;
+    height: 40;
+    top: 10px;
+    left: 10px;
+    bottom: 20px;
+    text-align: center;
+    border-radius: 10px;
+    border: 10px;
+    transition: all 0.3s ease;
+}
+
+button:hover{
+    background-color: var(--primary-dark)
+}
+.service{
+    justify-items: center;
+}
+#services{
+    display: flex;
+    margin-top: 30px;
+    gap: 20px;
+    justify-items: center;
+   
+}
+
+.service {
+    width:300px;
+}
+.service img{
+    max-width: 100%;
+}
+#about{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction:column;
+
+}
+
+.about-content p{
+    justify-items:  center;
+    margin-top: 15px;
+    
+
+   
+}
+#about img{
+    max-width:100% ;
+}
+
+#talk-to-us{
+    background-image: url("photo/imgphoto/img/talk-to-us.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+}
+.talk-to-us-content{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+   gap :16px
+}
+.talk-to-us-content p{
+    max-width: 500px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0;
+    align-items: center;
+
+}
+footer ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+#contact-header{
+    min-height: 400px;
+}
+
+/* Contact page */
+#contact-header{
+    min-height: 400px;
+    background-image:url("photo/imgphoto/img/contact-banner.png") ;
+    background-size: cover;
+    background-position: center;
+}
+#contact-us{
+    display: flex;
+    gap:150px;
+   margin-top: 10px;
+}
+.inputWrapper input{
+   padding: 9px;
+   margin-top: 15px;
+
+}
+.inputWrapper textarea{
+    margin-top: 15px;
+}
+.inputWrapper .primary-btn{
+    border-radius: 12px;
+   background-color: blue;
+    color: black;
+    padding: 9px;
+    margin-top: 15px;
+}
+
+.adress{
+    margin-top: 2px;
+    margin-bottom: 3px;
+
+}
+.detail{
+    display: flex;
+    margin-top: 13px;
+    gap:12px
+    
+}
+.text p{
+     margin-bottom: 2px;
+}
+.detailwrapper{
+    margin-top: 18px;
+  
+}
+
+.followUswrapper{
+    margin-top: 30px;
+   
+}
+.sociallink{
+    display: flex;
+    margin-top: 8px;
+    gap: 10px;
+    list-style: none;
+    flex-direction: row;
+    
+}
